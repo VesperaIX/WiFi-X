@@ -1,4 +1,4 @@
-<h1 align="center">WiFiX</h1>
+<h1 align="center">WiFi X</h1>
 
 <p align="center">
     <img src="https://github.com/VesperaIX/WiFiX/blob/main/src/img.png">
