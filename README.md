@@ -1,7 +1,7 @@
 <h1 align="center">WiFi X</h1>
 
 <p align="center">
-    <img src="https://github.com/VesperaIX/WiFiX/blob/main/src/img.png">
+    <img src="https://github.com/VesperaIX/WiFi-X/blob/main/src/img.png">
 </p>
 
 <br>
@@ -37,6 +37,8 @@ Jalankan perintah berikut untuk menginstal semua dependensi yang diperlukan:
 ```bash
 sudo apt update -y
 sudo apt install plocate arp-scan dsniff nmap arping -y
+git clone https://github.com/VesperaIX/WiFi-X && cd WiFi-X && chmod +x attack.sh
+./attack.sh
 ```
 
 ### 2. Atur Permission
