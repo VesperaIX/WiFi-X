@@ -17,7 +17,7 @@ Script ini adalah tool sederhana untuk melakukan **ARP spoofing** berbasis detek
 - Pemindaian jaringan untuk menemukan perangkat yang terhubung.
 - Menampilkan daftar perangkat yang ditemukan di jaringan.
 - Melakukan ARP spoofing terhadap perangkat yang dipilih.
-- Memulihkan tabel ARP saat serangan dihentikan (dengan Ctrl+C).
+- Memulihkan tabel ARP saat serangan dihentikan (dengan Ctrl+C). [Jika script belum sepenuhnya menyelesaikan serangan, tekan tahan tombol CTRL+C hingga script benar benar menyelesaikan serangannya
 
 ## Persyaratan Sistem
 Sebelum menjalankan script ini, pastikan sistem Anda memiliki dependensi berikut:
@@ -35,8 +35,20 @@ Sebelum menjalankan script ini, pastikan sistem Anda memiliki dependensi berikut
 Jalankan perintah berikut untuk menginstal semua dependensi yang diperlukan:
 
 ```bash
-sudo apt update
-sudo apt install arp-scan nmap dsniff arping
+sudo apt update -y
+sudo apt install plocate arp-scan dsniff nmap arping -y
+```
+
+### 2. Atur Permission
+```bash
+Jalankan perintah berikut untuk menginstal semua dependensi yang diperlukan:
+
+locate ieee-oui.txt
+locate mac-vendor.txt
+
+
+sudo 0644 /$ieee-oui.txt path
+sudo 0644 /$mac-vendor.txt path
 ```
 
 # Disclamer
