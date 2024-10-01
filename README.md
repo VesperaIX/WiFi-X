@@ -1,8 +1,7 @@
 <h1 align="center">WiFi X</h1>
 
 <p align="center">
-    <img src="https://github.com/VesperaIX/WiFi-X/blob/main/src/
-6332496745136768408.jpg">
+    <img src="https://raw.githubusercontent.com/VesperaIX/WiFi-X/refs/heads/main/6332496745136768408.jpg">
 </p>
 
 <br>
