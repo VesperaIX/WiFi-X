@@ -22,13 +22,12 @@ Script ini adalah tool sederhana untuk melakukan **ARP spoofing** berbasis detek
 ## Persyaratan Sistem
 Sebelum menjalankan script ini, pastikan sistem Anda memiliki dependensi berikut:
 - Sistem Operasi berbasis Linux
-- Interface jaringan `eth0` (atau ganti dengan interface lain jika diperlukan)
 - Paket-paket berikut:
   - `arp-scan`
   - `nmap`
   - `arpspoof`
   - `arping`
-
+  - `dsniff`
 ## Instalasi
 
 ### 1. Install Dependencies
